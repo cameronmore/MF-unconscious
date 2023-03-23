@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:unconscious"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:absolute:unconscious">
+    <Prefix name="" IRI="urn:absolute:unconscious#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/MF.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/MFOEM.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Revision and expansion of Mental Functioning Ontology (MF) to include unconscious processes. Rev. 0.11</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Jonathan Vajda &lt;jvajda@buffalo.edu&gt;</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">For partial completion of coursework requirements for Ontological Engineering (PHI 598/ENG 500), Spring 2018, under Dr. Barry Smith (SUNY Buffalo).</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="unconscious#automaticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#self-esteem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conceptual_priming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#semantic_priming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#explicit_self-esteem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#implicit_memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#implicit_self-esteem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#implicit_attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#automatic_process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#automatic_processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#implicit_association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#repressed_memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#unconscious_belief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#implicit_stereotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perceptual_priming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="unconscious#implicit_belief"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#adaptedfrom"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#conceptual_priming"/>
+        <Class IRI="unconscious#automatic_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perceptual_priming"/>
+        <Class IRI="unconscious#automatic_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semantic_priming"/>
+        <Class IRI="unconscious#automatic_process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#attitude"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#automatic_process"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#automatic_processing"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#automaticity"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#explicit_self-esteem"/>
+        <Class IRI="unconscious#self-esteem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#implicit_association"/>
+        <Class IRI="unconscious#implicit_memory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#implicit_attitude"/>
+        <Class IRI="unconscious#attitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#implicit_belief"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MF_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#implicit_memory"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007613"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#implicit_self-esteem"/>
+        <Class IRI="unconscious#self-esteem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#implicit_stereotype"/>
+        <Class IRI="unconscious#implicit_attitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#repressed_memory"/>
+        <Class IRI="unconscious#implicit_memory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#self-esteem"/>
+        <Class IRI="unconscious#attitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="unconscious#unconscious_belief"/>
+        <Class IRI="unconscious#implicit_belief"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#conceptual_priming</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An automatic mental process in which the agent unconsciously acknowledges a concept whose conceptual content enables the agent to recognize more quickly another similar (conceptually relevant) stimulus. AKA concept recognition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#perceptual_priming</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An automatic mental process in which the agent unconsciously perceives a stimulus, such that the agent more quickly recognizes another similar (perceptually relevant) stimulus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#semantic_priming</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An automatic mental process in which the agent unconsciously acknowledges a word whose semantic content enables the agent to recognize more quickly another similar (semantically relevant) stimulus. AKA word recognition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#attitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mental disposition to attribute positive or negative evaluation in an appraisal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>unconscious#automatic_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Agnes Moores and Jan De Houwer, “What Is Automaticity? An Analysis of Its Component Features and Their Interrelations,” in Social Psychology and the Unconscious: The Automaticity of Higher Order Processes, ed. John A. Bargh (New York, NY: Psychology Press, 2007), 19.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#automatic_process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mental process which &quot;can run to completion without conscious monitoring, irrespective of whether it was started intentionally or unintentionally.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#automatic_processing</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A behavior process the agent performs well with insignificant influence by Attending Mental_process or none at all.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#automaticity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A quality of a behavior process whereby the agent&apos;s behavior has high performance despite the fact that some mental processes involved are unconscious. I.e., the behavior no longer requires an &apos;attending&apos;, &apos;awareness&apos;, or &apos;consciousness&apos; process. Quality is acquired by frequent successful repetitions of a behavior process or mental process. See similar concept, ‘procedural memory’ (See Neuro-behavioral Ontology, NBO).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#explicit_self-esteem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mental disposition to evaluate oneself in a conscious, reflective, and deliberate manner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#adaptedfrom"/>
+        <IRI>unconscious#explicit_self-esteem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Implicit_self-esteem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>unconscious#implicit_association</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Implicit-association_test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#implicit_association</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An implicit memory distinguished by the agent&apos;s realization of (automatic) association between different cognitive representations of objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#implicit_attitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An attitude which influences the bearer’s appraisal process without the agent&apos;s awareness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#implicit_belief</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A belief that the agent holds but cannot introspect the content thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#implicit_memory</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A memory that is stored and can have an influence on a mental process, but the agent neither introspects the content thereof nor is aware of this influence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#implicit_self-esteem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A disposition to evaluate oneself in a spontaneous, automatic, or unconscious manner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#adaptedfrom"/>
+        <IRI>unconscious#implicit_self-esteem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Implicit_self-esteem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <IRI>unconscious#implicit_stereotype</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">https://en.wikipedia.org/wiki/Implicit_stereotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#implicit_stereotype</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An implicit attitude which attributes particular qualities to a member of a certain social group. Also known as &quot;implicit bias.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#repressed_memory</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An implicit memory that the agent is unable to self-ascribe from a first-person perspective. An implicit memory is said to be repressed when its cause is due to dissociation events, such as intense trauma.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#self-esteem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An attitude, a type of mental disposition, to evaluate oneself.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>unconscious#unconscious_belief</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An implicit belief that the agent is unable to self-ascribe from a first-person perspective.</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#adaptedfrom"/>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
